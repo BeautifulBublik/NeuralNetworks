@@ -46,7 +46,7 @@ y4 = np.array([0, 1,1,0,1,0,0,1,1,0,0,1,0,1,1,0])
 
 
 model4 = tf.keras.Sequential([
-    tf.keras.layers.Dense(4,input_dim=4 ,activation="tanh", ),
+    tf.keras.layers.Dense(8,input_dim=4 ,activation="tanh", ),
     tf.keras.layers.Dense(1, activation="sigmoid")
 ])
 
